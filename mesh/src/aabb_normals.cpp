@@ -47,7 +47,7 @@ PyMODINIT_FUNC PyInit_aabb_normals(void)
 
     import_array();
 
-    return module;
+    //return module;
 }
 
 void aabb_tree_destructor(PyObject *ptr)
